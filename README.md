@@ -6,6 +6,8 @@ project, or any Todoist filter, then complete, edit, reschedule,
 reprioritise, move or delete them, or read and add comments, all from the
 keyboard without leaving the terminal.
 
+![tdui showing a project's tasks, with priorities, labels, sub-tasks and due dates](screenshots/task-list.png)
+
 It talks to the Todoist API directly and caches everything it fetches, so
 it opens instantly with your last known tasks while a fresh copy loads in
 the background.
@@ -42,6 +44,26 @@ free to use, and isn't affiliated with or endorsed by Doist or Todoist.
   Todoist, Dracula, Tokyo Night, GitHub and Charm. Each one is previewed as
   you move through the list, and has light and dark versions to suit the
   terminal (Alucard for Dracula, Tokyo Night Day, GitHub Light).
+
+## A closer look
+
+**Task details** (`space`): the description and comments with their
+Markdown formatted, and every task key to hand.
+
+![The details of a task: its project, priority, due date and labels, a Markdown description with a checklist, and its comments](screenshots/task-details.png)
+
+**Postpone a recurring task** (`t`): move just this occurrence and keep the
+repeat.
+
+![The Postpone dialog: Tomorrow, Next week or Skip to next occurrence, or type a date](screenshots/postpone.png)
+
+**Settings** (`,`): your own tabs and their order, each with a `g` key.
+
+![Settings: the theme, and the tabs with their g keys, a saved filter and a project among them](screenshots/settings.png)
+
+**Themes** (`,` then `t`), previewed as you move through them.
+
+![The theme picker: Default, Todoist, Dracula, Tokyo Night, GitHub and Charm, each with its colours](screenshots/theme-picker.png)
 
 ## Installing
 
